@@ -7,7 +7,7 @@
 
 <body>
     <?php
-    if ($_SERVER["REQUEST_METHOD"] == "post") {
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $size = isset($_POST["size"]) ? intval($_POST["size"]) : 0;
 
         if ($size > 0) {
